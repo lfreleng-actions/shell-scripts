@@ -7,7 +7,7 @@
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable-next-line MD013 -->
-[![Linux Foundation](https://img.shields.io/badge/Linux-Foundation-blue)](https://linuxfoundation.org/) [![Source Code](https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white&color=blue)](https://github.com/lfreleng-actions/shell-scripts) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![pre-commit.ci status badge]][pre-commit.ci results page] [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/lfreleng-actions/shell-scripts/badge)](https://scorecard.dev/viewer/?uri=github.com/lfreleng-actions/shell-scripts)
+[![Linux Foundation](https://img.shields.io/badge/Linux-Foundation-blue)](https://linuxfoundation.org/) [![Source Code](https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white&color=blue)](https://github.com/lfreleng-actions/shell-scripts) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/lfreleng-actions/shell-scripts/badge)](https://scorecard.dev/viewer/?uri=github.com/lfreleng-actions/shell-scripts)
 <!-- prettier-ignore-end -->
 
 Shell tools for the people who maintain the `lfreleng-actions`
@@ -408,6 +408,3 @@ Tools live in the caller's shell by design. A tool that ran in a
 subprocess and nowhere else would be a script on `$PATH` instead, and
 these need to change directory, read shell state, or fail without taking
 the shell down with them.
-
-[pre-commit.ci results page]: https://results.pre-commit.ci/latest/github/lfreleng-actions/shell-scripts/main
-[pre-commit.ci status badge]: https://results.pre-commit.ci/badge/github/lfreleng-actions/shell-scripts/main.svg
